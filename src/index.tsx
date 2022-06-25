@@ -3,7 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './trainning/typeManip';
+import './trainning/typing/typeManip';
+import './trainning/patterns-oo/singleton';
+import './trainning/patterns-oo/factory-method';
+import './trainning/patterns-oo/observer';
+import './trainning/patterns-oo/decorator';
+import './trainning/patterns-oo/composite';
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
